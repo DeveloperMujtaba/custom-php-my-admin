@@ -33,8 +33,6 @@ spec:
       - image: profila.azurecr.io/profila:latest
         imagePullPolicy: Always
         name: profilabackendcontainer
-#        command: ["/bin/sh","-c"]
-#        args: ["cd /home/PJMProxy && python3 run.py"]
         ports:
         - containerPort: 80
           name: profilaport
