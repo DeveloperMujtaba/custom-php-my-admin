@@ -118,5 +118,8 @@
     "config":{
         "sort-packages": true,
         "discard-changes": true
+    },
+    "config": {
+    "platform-check": false
     }
 }
