@@ -136,7 +136,7 @@ $cfg['SaveDir'] = '';
  * When using DB-based query history, how many entries should be kept?
  * default = 25
  */
-//$cfg['QueryHistoryMax'] = 100;
+//$cfg['QueryHistoryMax'] = 500;
 
 /**
  * Whether or not to query the user before sending the error report to
