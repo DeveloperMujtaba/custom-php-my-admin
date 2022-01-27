@@ -27,8 +27,8 @@ $i++;
 /* Authentication type */
 $cfg['Servers'][$i]['auth_type'] = 'cookie';
 /* Server parameters */
-$cfg['Servers'][$i]['verbose'] = 'ChicStays SQL';
-$cfg['Servers'][$i]['host'] = 'chicstays.mysql.database.azure.com';
+$cfg['Servers'][$i]['verbose'] = 'IFC';
+$cfg['Servers'][$i]['host'] = 'ifundwp-mysqldbserver.mysql.database.azure.com';
 $cfg['Servers'][$i]['compress'] = false;
 $cfg['Servers'][$i]['AllowNoPassword'] = false;
 
